@@ -4,11 +4,11 @@ Dynapro is a thin promised-based wrapper around Amazon's AWS DynamoDB SDK.  This
 
 ## Installation
 
-    $ npm install dynapro
+    $ npm install @articulate/dynapro
 
 ## Usage
 
-    var Dynapro = require('dynapro')
+    var Dynapro = require('@articulate/dynapro').default
 
     var options = {
       region: 'xxx',
